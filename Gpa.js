@@ -26,6 +26,8 @@ console.log(courses);
 
 // To calculate the student Gpa //
 
+//Give the course unit a constant//
+
 const englishUnit = 2;
 const frenchUnit = 1;
 const mathsUnit = 4;
@@ -36,12 +38,16 @@ const workshopUnit = 1;
 const technicalDrawingUnit = 1;
 const humanitiesUnit = 1;
 
+// Grades constants//
+
 const A = 5 ;
 const B = 4 ;
 const C = 3 ;
 const D = 2 ;
 const E = 1 ;
 const F = 0 ;
+
+// calculate for the total Grade points //
 
 english = englishUnit * A; 
 
@@ -61,8 +67,11 @@ technicalDrawing = technicalDrawingUnit * F;
 
 humanities = humanitiesUnit * C;
 
-const gradePoints = english + french + mathematics + physics + chemistry + biology + workshop + technicalDrawing + humanities;
+const gradePoints = (english + french + mathematics + physics + chemistry + biology + workshop + technicalDrawing + humanities);
 
-const totalCourses = 9;
+const totalunit = ( englishUnit + frenchUnit + mathsUnit + physicsUnit + chemistryUnit + biologyUnit + workshopUnit + technicalDrawingUnit + humanitiesUnit);
 
-const Gpa = gradePoints / totalCourses;
+// find student Gpa //
+const Gpa = gradePoints / totalunit;
+
+
