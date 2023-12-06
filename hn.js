@@ -4,11 +4,15 @@ function sumOfEvenNubers(num){
    if (num % 2 === 0){
     num--
    }
+   
    while(x < num){
     result = result + x;
     x = x + 2;
    }
+   if(num < 1){
+    return result;
+   }
    return result + num;
 }
 
-console.log (sumOfEvenNubers(3))
+console.log (sumOfEvenNubers(8))
