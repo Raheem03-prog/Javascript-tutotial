@@ -7,8 +7,9 @@ while(Number > 0){
 if(Number < 0){
     result = 0 ;
 }
-return result
+return result;
 }
 
-let sum = returnSum(-5);
+
+let sum = returnSum(7);
 console.log(sum);
