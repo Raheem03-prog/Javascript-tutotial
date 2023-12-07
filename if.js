@@ -13,3 +13,4 @@ return result;
 
 let sum = returnSum(7);
 console.log(sum);
+
