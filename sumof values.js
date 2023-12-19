@@ -25,4 +25,4 @@ function sumOfTwoValues(Number , Boolean){
         return result + Number
     }
     }
-console.log (sumOfTwoValues(5,true));
+console.log (sumOfTwoValues(5,false));
